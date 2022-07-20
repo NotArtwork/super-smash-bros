@@ -15,7 +15,8 @@ function App() {
           fighters.map((element, index) => {
             return (
               <div>
-                <img src={`https://www.smashbros.com/assets_v2/img/fighter/thumb_a/${element.toLowerCase()}.png`} />
+                <img src={`https://www.smashbros.com/assets_v2/img/fighter/thumb_a/${element.toLowerCase()}.png`} className='fighter-image' />
+                <h5 className='fighter-name'>{element}</h5>
               </div>
             )
           })
