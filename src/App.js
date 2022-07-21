@@ -41,7 +41,7 @@ function App() {
       {
         // Conditional render (based on terner)
         selectedFighter ?
-        <FighterScreen />
+        <FighterScreen selectedFighter={selectedFighter}/>
         : null
       }
     </div>
