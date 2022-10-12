@@ -53,9 +53,21 @@
 }
 
 .char-model {
-
+  position:fixed;
+  width: 65%;
+  bottom: -50%;
+  right: 0%;
 }
 
 .char-name {
+ z-index: 2;
+ position: fixed;
+ text-transform: uppercase;
+ left:0;
+ bottom:0;
+ font-size: 20em;
+}
+
+.char-name-bg {
 
 }

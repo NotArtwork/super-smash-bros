@@ -12,7 +12,7 @@ function App() {
     {name: 'Yoshi',color:'lightgreen'},
     {name: 'Luigi',color:'green'},
     {name: 'Snake',color:'gray'},
-    {name: 'Fox',color:'purple'},
+    {name: 'Fox',color:'brown'},
     {name: 'Marth',color:'lightskyblue'},
     {name: 'Sora',color:'red'},
     {name: 'Ike',color:'darkblue'},
